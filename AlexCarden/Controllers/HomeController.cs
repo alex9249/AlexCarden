@@ -15,15 +15,20 @@ namespace AlexCarden.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "About Page";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Contact Page";
 
+            return View();
+        }
+        public ActionResult Resume()
+        {
+            ViewBag.message = "Resume page";
             return View();
         }
     }
