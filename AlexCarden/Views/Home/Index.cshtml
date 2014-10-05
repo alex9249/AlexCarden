@@ -50,37 +50,16 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="item">
-                            <img alt="" src="http://lorempixel.com/1600/500/sports/1">
-                            <div class="carousel-caption">
-                                <h4>
-                                    First Thumbnail label
-                                </h4>
-                                <p>
-                                    Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-                                </p>
-                            </div>
+                            <img alt="" src="~/Content/Images/Louisville.jpg">
+                            
                         </div>
                         <div class="item">
                             <img alt="" src="http://lorempixel.com/1600/500/sports/2">
-                            <div class="carousel-caption">
-                                <h4>
-                                    Second Thumbnail label
-                                </h4>
-                                <p>
-                                    Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-                                </p>
-                            </div>
+                            
                         </div>
                         <div class="item active">
                             <img alt="" src="http://lorempixel.com/1600/500/sports/3">
-                            <div class="carousel-caption">
-                                <h4>
-                                    Third Thumbnail label
-                                </h4>
-                                <p>
-                                    Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-                                </p>
-                            </div>
+                            
                         </div>
                     </div> <a class="left carousel-control" href="#carousel-714476" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-714476" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
                 </div>
@@ -94,9 +73,7 @@
                 <p>
                     Please Click Here to review my Resume
                 </p>
-                <p>
-                    <a class="btn" href="#">View Resume »</a>
-                </p>
+                @Html.ActionLink("View Resume","Resume")
             </div>
             <div class="col-md-4 column">
                 <h2>
@@ -105,9 +82,7 @@
                 <p>
                     Please click here to review my past work experience.
                 </p>
-                <p>
-                    <a class="btn" href="#">View Experience »</a>
-                </p>
+                @Html.ActionLink("View Experience","Experience")
             </div>
             <div class="col-md-4 column">
                 <h2>
@@ -116,9 +91,7 @@
                 <p>
                     Please click here to learn more about who I am.
                 </p>
-                <p>
-                    <a class="btn" href="#">View About »</a>
-                </p>
+                @Html.ActionLink("View About","About")
             </div>
         </div>
     </div>
